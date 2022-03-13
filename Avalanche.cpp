@@ -1,6 +1,11 @@
 #include "Avalanche.h"
 #include "Computer.h"
 
-Avalanche::Avalanche():Computer(){
-	compMove='R';
+Avalanche::Avalanche(){
+
+}
+
+char Avalanche::makeMove(){
+	move='R';
+	return move;
 }

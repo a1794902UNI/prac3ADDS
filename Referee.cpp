@@ -6,9 +6,9 @@ Referee::Referee(){
 
 }
 
-char Referee::refGame(Human player1, Computer player2){
-p1m=player1.makeMove();
-	p2m=player2.makeMove();
+char Referee::refGame(Player* player1, Player* player2){
+p1m=player1->makeMove();
+	p2m=player2->makeMove();
 
 	switch(p1m){
 		case 'R':

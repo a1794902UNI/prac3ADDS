@@ -14,7 +14,7 @@ protected:
 
 public:
 	Referee();
-	char refGame(Human, Computer);
+	char refGame(Player*, Player*);
 
 };
 

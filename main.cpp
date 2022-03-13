@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Player.h"
 #include "Human.h"
 #include "Computer.h"
 #include "Referee.h"
@@ -8,8 +8,8 @@
 using namespace std;
 int main(int argc,char **argv)
  {
-Human P1;
-Avalanche P2;
+Player* P1=new Computer();
+Player* P2=new Avalanche();
 
 Referee ref;
 
