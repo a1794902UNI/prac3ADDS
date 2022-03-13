@@ -4,10 +4,10 @@ using namespace std;
 
 
 Computer::Computer(){
+	compMove='R';
 
 }
 
 char Computer::makeMove(){
-	compMove='R';
 	return compMove;
 }
