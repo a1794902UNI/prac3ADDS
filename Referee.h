@@ -5,6 +5,7 @@
 #include "Human.h"
 #include "Computer.h"
 
+
 class Referee{
 private:
 	char Outcome;
