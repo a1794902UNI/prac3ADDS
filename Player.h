@@ -7,9 +7,12 @@ private:
 
 protected:
 	char move;
+	int tracker;
 public:
 	Player();
 	virtual char makeMove();
+	void reset();
+
 
 
 };

@@ -5,7 +5,7 @@
 
 class Crescendo: public Computer{
 private:
-	int tracker;
+	
 public:
 	Crescendo();
 	char makeMove();
